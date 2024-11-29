@@ -7,6 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 public class Vehicle
 {
     [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int vehicle_id { get; set; }
     public string car_manufacturer { get; set; }
     public string car_model { get; set; }

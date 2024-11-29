@@ -41,7 +41,7 @@ namespace autofleetapi.Controllers
 
                 return Ok(new
                 {
-                    AdminId = admin.user_id,
+                    AdminId = admin.admin_id,
                     FirstName = admin.admin_fname,
                     LastName = admin.admin_lname,
                     Email = admin.User.Email,
